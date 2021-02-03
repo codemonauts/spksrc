@@ -16,5 +16,6 @@ HOMEPAGE = https://github.com/codemonauts/activebackup-prometheus-exporter
 LICENSE  = MIT
 
 SERVICE_SETUP = src/service-setup.sh
+SERVICE_PORT=9763
 
 include ../../mk/spksrc.spk.mk
